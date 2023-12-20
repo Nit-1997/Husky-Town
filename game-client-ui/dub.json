@@ -1,0 +1,26 @@
+{
+  "authors": ["Nitin Bhat"],
+  "copyright": "Copyright © 2023, Nitin Bhat",
+  "dependencies": {
+    "bindbc-sdl": "~>1.4.3"
+  },
+  "description": "A minimal D application.",
+  "license": "proprietary",
+  "name": "game-client-ui",
+  "targetType": "executable",
+  "configurations": [
+    { "name": "executable" },
+    {
+      "name": "unittest",
+      "preBuildCommands": [
+        "dub run unit-threaded -c gen_ut_main -- -f bin/ut.d -d dub"
+      ],
+      "mainSourceFile": "bin/ut.d",
+      "excludedSourceFiles": ["source/app.d"],
+      "dependencies": {
+        "bindbc-sdl": "~>1.4.3",
+        "unit-threaded": "~>2.1.7"
+      }
+    }
+  ]
+}
