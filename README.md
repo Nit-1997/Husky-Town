@@ -30,7 +30,7 @@ Here is a welcome video showing the repoisory organization--be sure to read care
 <img src="husky_town_arch.png" alt="Click for final project video" width="300"/>
 </a>
 
-https://www.youtube.com/watch?v=paOKmCxV8wg
+https://www.youtube.com/watch?v=0Lh22KAIJ7M
 
 
 
